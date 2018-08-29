@@ -11,6 +11,7 @@ In our technical team, we decided to consider a specific template for all of the
 
 # Detailed design
 Response's body will be a serialized JSON object which includes some keys as the following table.
+
 | Key            | Value                                             | Data Type |
 |----------------|---------------------------------------------------|-----------|
 | parameter_name | an array of objects which consists list of errors | list      |
