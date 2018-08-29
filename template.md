@@ -3,6 +3,7 @@
 - Modification Date: (fill me in with today's date, YYYY-MM-DD hh:mm:ss)
 - RFC Pull Request: (optional)
 - Issue: (optional)
+- Version: (fill me in with a semantic version)
 
 # Summary
 One paragraph explanation of the feature.
