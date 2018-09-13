@@ -12,32 +12,32 @@ We only return data of one entities in our resource result .
 # Resource example
 #### For example we have two entities as X and Y
 
-For return X by :id
 ## GET Method
+For return X by id
 ```
 .../Xs/:id
 ```
 
-For return list of X
 ## GET Method
+For return list of X
 ```
 .../Xs
 ```
 
-For return list of X that belongs to Y by Y's id
 ## GET Method
+For return list of X that belongs to Y by Y's id
 ```
 .../Xs/by/y/:id
 ```
 
-For return list of X (filtering) that belongs to Y, query should be run on X and Y (default is X)
 ## POST Method (_search)
+For return list of X (filtering) that belongs to Y, query should be run on X and Y (default is X)
 ```
 .../Xs/by/y/_search/:skip/:size
 ```
 
-For return list of X (filtering) that belongs to Y by Y's id
 ## POST Method (_search)
+For return list of X (filtering) that belongs to Y by Y's id
 ```
 .../Xs/by/y/:id/_search/:skip/:size
 ```
