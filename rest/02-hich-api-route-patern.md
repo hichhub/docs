@@ -1,4 +1,4 @@
-- Feature Name: Hich API ROUTE PATERN
+- Feature Name: Hich API Route Pattern
 - Create Date: 2018-09-11
 - Modification Date: 2018-09-11
 - Version: 1.0.0
@@ -7,7 +7,8 @@
 HARP is name of our routes pattern that is customised by us base of entities we used ... 
 
 # Detailed design
-We only return data of one entities in our resource result .
+We only return data of one entities in our resource result, The entitie will be returned that we want info about that,
+With this pattern we collect are related routes in one place and we know what kind of data we need and will return ...
 
 # Resource example
 #### For example we have two entities as X and Y
