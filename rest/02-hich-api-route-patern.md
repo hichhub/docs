@@ -4,7 +4,7 @@
 - Version: 1.0.0
 
 # Summary
-HARP is name of our routes patern that is customised by us base of entities we used ... 
+HARP is name of our routes pattern that is customised by us base of entities we used ... 
 
 # Detailed design
 We only return data of one entities in our resource result .
